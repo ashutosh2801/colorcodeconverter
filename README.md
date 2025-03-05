@@ -1,10 +1,5 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laracon21/colorcodeconverter.svg?style=flat-square)](https://packagist.org/packages/laracon21/colorcodeconverter)
-[![Build Status](https://img.shields.io/travis/laracon21/colorcodeconverter/master.svg?style=flat-square)](https://travis-ci.org/laracon21/colorcodeconverter)
-[![Quality Score](https://img.shields.io/scrutinizer/g/laracon21/colorcodeconverter.svg?style=flat-square)](https://scrutinizer-ci.com/g/laracon21/colorcodeconverter)
-[![Total Downloads](https://img.shields.io/packagist/dt/laracon21/colorcodeconverter.svg?style=flat-square)](https://packagist.org/packages/laracon21/colorcodeconverter)
-
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
 ## Installation
@@ -12,7 +7,7 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require laracon21/colorcodeconverter
+composer require ashutosh2801/colorcodeconverter
 ```
 
 ## Usage
@@ -41,7 +36,7 @@ If you discover any security related issues, please email developer.activeitzone
 
 ## Credits
 
-- [Jane Doe](https://github.com/laracon21)
+- [Jane Doe](https://github.com/ashutosh2801)
 - [All Contributors](../../contributors)
 
 ## License
