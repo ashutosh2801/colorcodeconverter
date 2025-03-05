@@ -1,0 +1,54 @@
+{
+    "name": "ashutosh2801/colorcodeconverter",
+    "description": "Color code converter",
+    "keywords": [
+        "ashutosh2801",
+        "colorcodeconverter"
+    ],
+    "homepage": "https://github.com/ashutosh2801/colorcodeconverter",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ashutosh Sharma",
+            "email": "ashutosh2801@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ashutosh2801\\Colorcodeconverter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ashutosh2801\\Colorcodeconverter\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ashutosh2801\\Colorcodeconverter\\ColorcodeconverterServiceProvider"
+            ],
+            "aliases": {
+                "Colorcodeconverter": "Ashutosh2801\\Colorcodeconverter\\ColorcodeconverterFacade"
+            }
+        }
+    }
+}
